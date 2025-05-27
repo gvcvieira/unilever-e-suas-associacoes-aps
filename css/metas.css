@@ -1,0 +1,41 @@
+#principal-metas {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  gap: 30px; 
+  padding: 20px;
+  flex: 1; 
+}
+.imagens-esquerda, .imagens-direita {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+.imagens-esquerda, .imagens-direita {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.imagens-esquerda a img, .imagens-direita a img {
+  width: 180px; 
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.imagens-esquerda a img:hover, .imagens-direita a img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.imagens-esquerda, .imagens-direita {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; 
+}
+.imagens-esquerda img, .imagens-direita img {
+  width: 700px; 
+  height: auto;
+  object-fit: contain;
+}

@@ -1,0 +1,36 @@
+main {
+  background-color: #ffffff; 
+  padding: 40px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+main h2 {
+  color: #003366; 
+  font-size: 1.8rem;
+}
+main ol {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+main a {
+  color: #0000ee;
+  text-decoration: none;
+}
+main a:hover {
+  text-decoration: underline;
+}
+.sobre {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.sobre h2 {
+  color: #003B80;
+  font-size: 28px;
+}
+.sobre p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: justify;
+}

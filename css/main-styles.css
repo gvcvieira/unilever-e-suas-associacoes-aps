@@ -1,0 +1,260 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .barramenu {
+      background-color: #ffffff;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .barramenu #logo {
+      display: flex;
+      align-items: center;
+    }
+    .barramenu img {
+      height: 100px;
+      margin-right: 20px;
+    }
+    .barramenu nav {
+      display: flex;
+      align-items: center;
+      font-family: 'Lato', sans-serif;
+      font-weight: 550; 
+      font-size: 20px;
+      gap: 20px;
+    }
+    .barramenu nav a {
+      color:  hsl(220, 100%, 23%);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .barramenu nav a:hover {
+      color: #ffd700;
+   }
+    .barramenu input {
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+    }
+    .section-entrada {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #texto-entrada {
+      flex: 1;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 70px;
+      min-width: 300px;
+    }
+    #texto-entrada h1 {
+      font-size: 70px;
+      font-family: 'Arial', sans-serif;
+      font-weight: 800;
+      margin: 50px;
+      letter-spacing: normal;
+      line-height: 80px;
+      display: inline-block;
+      margin: 0px;
+    }
+    .texto-rgb {
+      font-size: 70px;
+      font-family: 'Arial', sans-serif;
+      font-weight: 800;
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+      background-size: 800% 800%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rgb 7s linear infinite;
+    }
+    @keyframes rgb {
+           0% {
+         background-position: 100% 50%;
+      }
+         100% {
+         background-position: 0% 50%;
+      }
+    }
+    #imagem-capa {
+      flex: 1;
+      min-width: 300px;
+    }
+    #imagem-capa img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @media (max-width: 1920px) { .section-geral h2, .conteudo-geral, #marcas-texto {
+      margin-left: 20px !important;
+      margin-right: 20px !important;
+      padding: 0 20px !important;
+    }
+    .section-geral {
+      background-color: #1E90FF;
+      padding: 40px 20px;
+      color: white;
+    }
+    .section-geral h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      margin-left: 100px;
+    }
+    .conteudo-geral {
+      max-width: 1650px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 30px;
+      margin-left: 100px;
+    }
+    .principal {
+      border-radius: 5px;
+      overflow: hidden;
+      flex: 2;
+      min-width: 300px;
+      background-color: white;
+      color: #002776;
+    }
+    .titulo {
+      padding: 10px;
+      font-size: 12px;
+      font-weight: bold;
+      background-color: #002776;
+      color: white;
+    }
+    .principal img {
+      width: 100%;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+    .principal p {
+      margin: 0;
+    }
+    .principal #conteudo {
+      background-color: #002776;
+      color: white;
+      padding: 15px;
+    }
+    .unilever-marcas {
+      background-color: #002776;
+      color: white;
+      padding: 60px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    #marcas-texto {
+      flex: 1;
+      min-width: 300px;
+      margin-left: 200px
+    }
+    #marcas-texto h2 {
+      font-family: 'Poetsen One', sans-serif;
+      font-size: 32px;
+      line-height: 1.4;
+    }
+    #marcas-texto a {
+      display: inline-block;
+      background-color: #9BF2F0;
+      color: #002776;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    #unilever-produtos {
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    #unilever-produtos img {
+      max-height: 180px;
+    }
+    .compartilhe-ideia {
+      background-color: #0071FF;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .compartilhe-ideia a {
+      color: white;
+      margin: 0 10px;
+    }
+    #piscando-escrevendo {
+      font-family: monospace;
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid black;
+      width: 0;
+      animation: piscar 0.7s step-end infinite;
+    }
+    @keyframes piscar {
+      50% {
+        border-color: transparent;
+      }
+    }
+    .contato {
+      background-color: #2D38A0;
+      color: white;
+      padding: 40px 20px;
+    }
+    .contato-container {
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 40px;
+    }
+    .caixa-contato {
+      flex: 1;
+      min-width: 280px;
+    }
+    .caixa-contato a {
+      display: inline-block;
+      margin-top: 15px;
+      background-color: #A8EFFF;
+      color: #000;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #002776;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+    footer .caixa-rodape {
+      margin-top: 20px;
+    }
+    .logo-rodape {
+      margin-top: 15px;
+      width: 80px;
+      height: auto;
+    }
+    .voltar-ao-topo {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: #C836F9;    
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 14px;
+      display: none;    
+      cursor: pointer;
+    }
